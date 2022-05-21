@@ -13,13 +13,12 @@ Ubuntu 20.04
 Issue:  sfdx force:mdapi:convert does not convert CustomLabels to source format.
 
 Steps:
-1 - convert original source to mdapi format
-    - sfdx force:source:convert -r force-app -d mdapi
-2 - observe CustomLabels in mdapi folder and package.xml
-3 - convert MDAPI back to SOURCE format
-    - sfdx force:mdapi:convert -r mdapi -d src
-4 - observe NOTHING was converted, src folder is empty
-
-5 - Use legacy mdapi:convert
-     - sfdx force:mdapi:legacy:convert -r mdapi -d src2
-6 - Observe legacy convert works as expected.
+- convert original source to mdapi format 
+`sfdx force:source:convert -r force-app -d mdapi`
+- observe CustomLabels in mdapi folder and package.xml
+- convert MDAPI back to SOURCE format 
+`sfdx force:mdapi:convert -r mdapi -d src`
+- observe NOTHING was converted, `\src` folder is empty
+- Use legacy mdapi:convert 
+`sfdx force:mdapi:legacy:convert -r mdapi -d src2`
+- Observe legacy convert works as expected in `\src2` folder

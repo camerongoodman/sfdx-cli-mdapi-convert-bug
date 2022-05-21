@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>CustomLabel1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CustomLabel1</shortDescription>
+        <value>Hi I am a custom label!</value>
+    </labels>
+    <labels>
+        <fullName>CustomLabel2</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CustomLabel2</shortDescription>
+        <value>Hello, I am another custom label</value>
+    </labels>
+    <labels>
+        <fullName>UnprotectedCustomLabel1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UnprotectedCustomLabel1</shortDescription>
+        <value>Im an unprotected custom label</value>
+    </labels>
+    <labels>
+        <fullName>UnprotectedCustomLabel2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UnprotectedCustomLabel2</shortDescription>
+        <value>I too am an unprotected custom label.</value>
+    </labels>
+</CustomLabels>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>CustomLabel1</members>
+        <members>CustomLabel2</members>
+        <members>UnprotectedCustomLabel1</members>
+        <members>UnprotectedCustomLabel2</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>CustomLabels</members>
+        <name>CustomLabels</name>
+    </types>
+    <version>54.0</version>
+</Package>
